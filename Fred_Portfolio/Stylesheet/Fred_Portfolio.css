@@ -137,31 +137,8 @@ img {
     width: auto;
 }
 
-/*
-.Previous, .Next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 2vw;
-    margin-top: -0vw;
-    color: darkgray;
-    font-weight: bold;
-    font-size: 1.5vw;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    transition: 0.6s ease;
-}
 
-.Next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
 
-.Previous:hover, .Next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-}*/
 .text {
     color: snow;
     padding: 1vs;
@@ -339,7 +316,15 @@ h1:hover {
 h2:hover {
     color: black;
     font-weight: bold;
+    
 
+
+}
+h3:hover{
+    color: rgba(35, 39, 142, 0.802);
+  
+    transition: transform 1s;
+    transform: scale(1.05);
 
 }
 img:hover {
@@ -357,7 +342,7 @@ img:hover {
     background-color: rgba(85, 85, 85, 0.604);
     color: rgb(255, 255, 255);
     padding: 16px 20px;
-    border: none;
+    border: rgba(35, 39, 142, 0.802);
     cursor: pointer;
     opacity: 0.8;
     position: fixed;
@@ -379,7 +364,7 @@ img:hover {
     
  }
 
- .form-container {
+  .modal-body {
      padding: 10px;
      background-color: rgb(211, 211, 211);
      margin: 5px 0 22px 0;
@@ -387,7 +372,7 @@ img:hover {
  }
 
 
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+ .form-control input[type=text]:focus, .form-container input[type=password]:focus {
     background-color:  rgba(47, 48, 79, 0.323);
     outline: rgb(128, 128, 128);
     font-size: 1.5vw;
@@ -396,7 +381,7 @@ img:hover {
 
  
 
-.form-container .btn {
+.form-control {
     background-color: rgb rgba(47, 48, 79, 0.323);
     color: rgba(0, 0, 0, 0.508);
     border-color: black;
@@ -404,7 +389,7 @@ img:hover {
     margin-top: 1.5vh;
 }
 
-.form-container .cancel {
+.form-control .cancel {
     background-color: rgba(0, 0, 0, 0.412);
     color: rgba(255, 255, 255, 0.439);
     border-color: grey;
@@ -412,7 +397,7 @@ img:hover {
 
 button {
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- color: rgba(255, 255, 255, 0.439);
+ color: rgba(0, 0, 0, 0.753);
  letter-spacing: .1vw;
  font-size: 2vw;
  font-weight: bold;
@@ -424,16 +409,18 @@ button {
  height: auto;
 }
 
-button:hover, .form-container .btn:hover{
+
+
+button:hover, .form-controlegend .btn:hover{
     color: rgba(255, 255, 255, 0.549);
-    background-color: rgba(0, 0, 0, 0.302);
+    background-color: rgba(0, 0, 0, 0.226);
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
     border-style: solid;
-   *border-color: rgba(192, 192, 192, 0.343);
+   *border-color: rgba(192, 192, 192, 0);
 }
 
-.form-container .cancel:hover{
+.form-control .cancel:hover{
     color: rgba(255, 255, 255, 0.652);
     background-color: rgba(0, 15, 128, 0.398);
     -webkit-transition-duration: 1s;
@@ -442,8 +429,34 @@ button:hover, .form-container .btn:hover{
     border-color: rgba(0, 0, 0, 0.59);
 }
 
- /* Footer element */
- footer {
+
+/* .container  */
+/* { */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-image: url("images/ipad-632394_1920.jpg"); */
+	/* background-size: cover; */
+	/* background-repeat:no-repeat;     */
+/* } */
+/* .container-box */
+/* { */
+	/* display:inline-block;  */
+	/* padding:120px;  */
+	/* background: rgba(0, 0, 0, .5); */
+	/* border: 1px solid #333;	 */
+/* } */
+
+ Footer element 
+ .footer {
      padding: 2%;
-     background-color: white;
- }
+  
+ } 
+
+ 
+
+
+
+ 
